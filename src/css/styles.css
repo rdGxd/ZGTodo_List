@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#task-form, #task-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+#task-form h2, #task-list h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"], textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#tasks {
+  list-style: none;
+  padding: 0;
+}
+
+#tasks li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+.task-actions button.edit {
+  background-color: #007bff;
+}
+
+.task-actions button:hover {
+  background-color: #c82333;
+}
+
+.task-actions button.edit:hover {
+  background-color: #0056b3;
+}
