@@ -7,8 +7,8 @@
 
 ### Funcionalidades
 
-- Criar, editar, listar e excluir tarefas
-- Interface simples e intuitiva para gerenciar tarefas
+- Criar, editar, listar e excluir tarefas.
+- Interface simples e intuitiva para gerenciar tarefas.
 
 ### Como Rodar o Projeto
 
